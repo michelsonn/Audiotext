@@ -1,0 +1,5 @@
+PySide6>=6.8,<7
+faster-whisper>=1.1.0,<2
+huggingface-hub>=0.27,<2
+av>=14,<17
+psutil>=6,<8

@@ -1,0 +1,34 @@
+name: Сообщить об ошибке
+description: Воспроизводимая ошибка Audiotext
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Что произошло?
+      description: Не прикладывайте реальные записи звонков или персональные данные.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: "1. Открыл...\n2. Выбрал...\n3. Нажал..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия Audiotext
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Видеокарта и версия драйвера
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Диагностика или текст ошибки
+      render: shell
