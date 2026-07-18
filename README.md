@@ -1,3 +1,5 @@
+<img width="720" height="465" alt="screen" src="https://github.com/user-attachments/assets/79cb3da4-d46e-43fa-ba47-f9a54b5c32b5" />
+
 # Audiotext
 
 **Audiotext** — бесплатный многопоточный транскрибатор аудио для Windows на базе Faster Whisper.
