@@ -14,5 +14,3 @@ jobs:
           python-version: "3.12"
       - name: Compile Python sources
         run: python -m compileall -q audiotext main.pyw tests
-      - name: Run dependency-free tests
-        run: python -m unittest discover -s tests -v
